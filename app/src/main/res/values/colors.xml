@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color">#15c2d2</color>
+    <color name="white">#ffffff</color>
+    <color name="theme_green">#6cc28f</color>
+    <color name="theme_red">#f1624b</color>
+    <color name="theme_background">#f5f5f5</color>
+    <color name="quiz_default_option">#e6e7e8</color>
+    <color name="quiz_select_option">#848688</color>
+</resources>
