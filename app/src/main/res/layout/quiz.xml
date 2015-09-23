@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/quiz_button">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/elon_musk"
+                android:scaleType="centerCrop"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/theme_color"
+                    android:text="Elon Musk plans launch of 4000 satellites to bring Wi-Fi to most remote locations on Earth - BelfastTelegraph.co.uk uytuyuyiuy iuiuoiuoui oioi ooijo lij iojoijoij o oij oijoijoij oijoijoijoioi oi oiou  oio oi  oio ouoiuouou"
+                    android:textSize="16sp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp">
+                    <RadioButton
+                        style="@style/radioButton"
+                        android:text="News Feed"/>
+                    <RadioButton
+                        style="@style/radioButton"
+                        android:text="Experiments"/>
+                    <RadioButton
+                        style="@style/radioButton"
+                        android:text="Quiz of the day"/>
+                    <RadioButton
+                        style="@style/radioButton"
+                        android:text="Picture of the Day"/>
+                </RadioGroup>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quiz_explanation"
+                    android:textColor="@color/theme_color"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hi"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/quiz_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/quiz_submit"
+        android:background="@color/theme_color"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>
