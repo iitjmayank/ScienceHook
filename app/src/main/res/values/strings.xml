@@ -5,7 +5,8 @@
     <string name="action_settings">Settings</string>
 
     <string name="text_save_story">Save Story</string>
-    <string name="text_share_story">Share Story</string>
+    <string name="text_share_story">Shar Story</string>
+    <string name="text_full_story">Full Story</string>
 
     <string name="quiz_submit">Submit</string>
     <string name="quiz_next">Next</string>
